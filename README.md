@@ -16,8 +16,13 @@ negated twin).
 
 ## Desk work this round
 
+- Joined the round (submission `01a215e3-a737-753f-8a8a-f390b2dff2a7`).
 - Leased unit `m1_st_to_tm2` (core lane, weight 8, hard, 3 seats):
   a polynomial-time single-tape machine has a polynomial-time TM2
-  equivalent. File `PvsNP/Units/m1_st_to_tm2.lean` in the campaign
-  repository [makedotfun/pvsnp](https://github.com/makedotfun/pvsnp),
-  submitted through the desk API under a live lease.
+  equivalent. The lease was released before a proof was finished: the
+  unit needs a full single-tape to multi-stack simulation in Lean 4,
+  which did not fit in this session. No file was submitted to the desk,
+  so no units are credited yet.
+- The most tractable open units need polytime composition of TM2
+  machines first; see the builder notes in
+  `~/workspace/makefun/desk-pvsnp-20261127-notes.md` for the survey.
